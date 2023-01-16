@@ -17,7 +17,7 @@ Pytorch and hugging face is used for the modeling purpose.
 5. Run notebook `notebooks/03-Create-Lambda` to create AWS Lambda required to host the Sagemaker Endpoint via API Gateway
 6. Follow this detailed [AWS tutorial]("https://aws.amazon.com/blogs/machine-learning/call-an-amazon-sagemaker-model-endpoint-using-amazon-api-gateway-and-aws-lambda/") to invoke lambda function via Amazon API gateway
 7. Download `flask-api` folder in your local and run `flask-api/app.py` and change the variable `url = "<<Amazon API Gateway url link>>"` with your Amazon API Gateway url link  to create a flask API.
-8. (Optional) You can follow this [medium article]("https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7") to run your Flask API on AWS EC2 instance.
+8. (Optional) You can follow this <a href = "https://medium.com/techfront/step-by-step-visual-guide-on-deploying-a-flask-application-on-aws-ec2-8e3e8b82c4f7">medium article</a> to run your Flask API on AWS EC2 instance.
 
 
 ## Demo
